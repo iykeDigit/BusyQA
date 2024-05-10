@@ -63,7 +63,8 @@ body{
     display: grid;
     place-items:center;
     grid-template-columns: repeat(3, minmax(200px,1fr));
-    gap: 20px;  
+    row-gap: 20px;  
+    column-gap: 40px;
 }
 
 /* Media queries for smaller screens */
