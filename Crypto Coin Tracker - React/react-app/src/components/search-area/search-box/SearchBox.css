@@ -1,0 +1,14 @@
+#search-box{
+    padding: 5px;    
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(250, 237, 250);
+}
+
+@media (max-width: 768px) {
+    #search-box {
+        width: 100%;
+        max-width: 300px; 
+    }
+}

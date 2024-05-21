@@ -1,0 +1,42 @@
+.content-section{
+    background-color: white;
+    width: 220px;
+    height: 185px;    
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(228, 202, 228);
+}
+
+img{    
+    padding-top: 10px;
+}
+
+p{
+    color: rgb(101, 98, 98);
+    font-size: 12px;
+    font-family: Roboto, Arial;
+}
+.properties{
+    line-height: 4px;
+}
+
+.title{
+    margin-top: 1px; 
+    font-size: 14px;
+}
+
+/* Adjustments for smaller screens */
+
+@media (max-width: 576px) {
+    .content-section {
+        height: auto; 
+    }
+
+    .title {
+        margin-top: 10px; 
+    }
+
+    p {
+        font-size: 14px; 
+    }
+}

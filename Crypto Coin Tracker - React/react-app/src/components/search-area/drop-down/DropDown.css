@@ -1,0 +1,14 @@
+#drop-down{
+    padding: 5px;    
+    width: 200px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+       #drop-down {
+        width: 100%;
+        max-width: 300px; 
+    }
+}
