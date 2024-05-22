@@ -33,19 +33,6 @@ body{
     border-radius: 5px;
 }
 
-@media (max-width: 768px) {
-    #search-area {
-        flex-direction: column;
-        gap: 20px; 
-    }
-
-    #search-box,
-    #drop-down {
-        width: 100%;
-        max-width: 300px; 
-    }
-}
-
 #main-title{
     display: flex;
     justify-content: center;
@@ -66,6 +53,21 @@ body{
     row-gap: 20px;  
     column-gap: 40px;
 }
+
+@media (max-width: 768px) {
+    #search-area {
+        flex-direction: column;
+        gap: 20px; 
+    }
+
+    #search-box,
+    #drop-down {
+        width: 100%;
+        max-width: 300px; 
+    }
+}
+
+
 
 /* Media queries for smaller screens */
 
